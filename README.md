@@ -6,7 +6,7 @@ Requires `git` and `zsh`
 ```bash
 cd ~
 mkdir -p .ssh && chmod 700 .ssh
-git clone https://github.com/simnalamburt/.dotfiles.git --depth=1
+git clone https://github.com/jaehakcho/.dotfiles.git --depth=1
 curl -fLo .vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 ln -sf .dotfiles/.vimrc
